@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Naam Surname – Building Construction Contractor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#14120f;--panel:#1d1a15;--line:#33302a;--text:#f2ede3;--muted:#a8a193;--yellow:#ffc20e;--orange:#ff7a1a;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:dark}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--text);font:400 17px/1.6 'Barlow',system-ui,sans-serif}
+h1,h2,h3{font-family:'Barlow Condensed','Arial Narrow',Impact,sans-serif;text-transform:uppercase;line-height:.95;margin:0;letter-spacing:.01em}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:0;z-index:5;background:rgba(20,18,15,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;height:58px}
+nav b{font:700 22px 'Barlow Condensed',sans-serif;text-transform:uppercase;color:var(--yellow)}
+nav a{text-decoration:none;margin-left:18px;color:var(--muted);font-weight:500}
+nav a:hover,nav a:focus-visible{color:var(--yellow)}
+.hero{position:relative;padding:72px 0 64px;background:
+linear-gradient(var(--line) 1px,transparent 1px) 0 0/48px 48px,
+linear-gradient(90deg,var(--line) 1px,transparent 1px) 0 0/48px 48px;}
+.hero::after{content:"";position:absolute;inset:auto 0 0 0;height:16px;background:repeating-linear-gradient(-45deg,var(--yellow) 0 22px,#14120f 22px 44px)}
+.hero h1{font-size:clamp(56px,13vw,148px);font-weight:800}
+.hero h1 span{display:block;color:var(--yellow)}
+.hero p{max-width:34em;color:var(--muted);font-size:19px;margin:22px 0 28px}
+.btn{display:inline-block;padding:13px 24px;font:700 18px 'Barlow Condensed',sans-serif;text-transform:uppercase;letter-spacing:.04em;text-decoration:none;background:var(--yellow);color:#14120f;border:2px solid var(--yellow);margin-right:10px;margin-bottom:10px}
+.btn.alt{background:transparent;color:var(--text);border-color:var(--muted)}
+.btn:hover,.btn:focus-visible{background:var(--orange);border-color:var(--orange);color:#14120f}
+section{padding:64px 0}
+h2{font-size:clamp(38px,7vw,60px);margin-bottom:28px}
+h2::after{content:"";display:block;width:64px;height:6px;background:var(--orange);margin-top:12px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));border:1px solid var(--line);background:var(--panel)}
+.stats div{padding:22px;border-right:1px solid var(--line)}
+.stats strong{display:block;font:800 52px 'Barlow Condensed',sans-serif;color:var(--yellow);line-height:1}
+.stats span{color:var(--muted);font-size:15px}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px}
+.filters button{font:600 16px 'Barlow',sans-serif;padding:8px 16px;background:transparent;color:var(--muted);border:1px solid var(--line);cursor:pointer}
+.filters button[aria-pressed=true]{background:var(--yellow);color:#14120f;border-color:var(--yellow)}
+.filters button:focus-visible,.btn:focus-visible,nav a:focus-visible{outline:3px solid var(--orange);outline-offset:2px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:20px}
+.card{background:var(--panel);border:1px solid var(--line);border-left:6px solid var(--orange)}
+.card[hidden]{display:none}
+.thumb{height:150px;background:repeating-linear-gradient(135deg,#26231d 0 14px,#211e19 14px 28px);display:flex;align-items:flex-end;padding:12px;color:var(--muted);font-size:14px}
+.card .in{padding:18px 20px 22px}
+.card h3{font-size:28px;margin-bottom:8px}
+.card dl{display:grid;grid-template-columns:auto 1fr;gap:2px 14px;margin:12px 0 0;font-size:15px}
+.card dt{color:var(--muted)}.card dd{margin:0}
+.tag{font-size:14px;color:var(--yellow);font-weight:600}
+.svc{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}
+.svc div{padding:22px;border:1px solid var(--line);background:var(--panel)}
+.svc h3{font-size:26px;color:var(--yellow);margin-bottom:8px}
+.svc p{margin:0;color:var(--muted)}
+.contact{background:var(--yellow);color:#14120f}
+.contact h2::after{background:#14120f}
+.contact a.big{display:block;font:800 clamp(34px,8vw,64px) 'Barlow Condensed',sans-serif;text-decoration:none;line-height:1.1}
+.contact .btn{background:#14120f;color:var(--yellow);border-color:#14120f}
+.contact .btn:hover{background:var(--orange);color:#14120f;border-color:var(--orange)}
+footer{padding:22px 0;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
+@media(max-width:560px){nav a:nth-child(n+3){display:none}.hero{padding-top:48px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<nav><div class="wrap"><b>Naam Surname</b><div><a href="#projects">Projects</a><a href="#services">Services</a><a href="#contact">Contact</a></div></div></nav>
+
+<header class="hero"><div class="wrap">
+<h1>We build it<span>to last.</span></h1>
+<p>Naam Surname – building construction contractor. Large residential and commercial buildings, delivered by our own skilled team of workers, on time.</p>
+<a class="btn" href="#projects">See my projects</a><a class="btn alt" href="#contact">Get in touch</a>
+</div></header>
+
+<section><div class="wrap"><div class="stats">
+<div><strong>15+</strong><span>Years on site</span></div>
+<div><strong>60+</strong><span>Projects completed</span></div>
+<div><strong>100+</strong><span>Skilled workers in our team</span></div>
+<div><strong>100%</strong><span>On-time handovers</span></div>
+</div></div></section>
+
+<section id="projects" style="padding-top:8px"><div class="wrap">
+<h2>Projects</h2>
+<div class="filters" role="group" aria-label="Filter projects">
+<button aria-pressed="true" data-f="all">All</button><button aria-pressed="false" data-f="building">Buildings</button><button aria-pressed="false" data-f="road">Roads</button><button aria-pressed="false" data-f="bridge">Bridges</button>
+</div>
+<div class="grid">
+<article class="card" data-c="building"><div class="thumb">Add site photo</div><div class="in"><span class="tag">Building</span><h3>Residential Complex</h3><dl><dt>Location</dt><dd>City, State</dd><dt>Size</dt><dd>48 flats, G+7</dd><dt>Year</dt><dd>2023</dd><dt>My role</dt><dd>Site engineer</dd></dl></div></article>
+<article class="card" data-c="building"><div class="thumb">Add site photo</div><div class="in"><span class="tag">Building</span><h3>Commercial Showroom</h3><dl><dt>Location</dt><dd>City, State</dd><dt>Size</dt><dd>22,000 sq ft</dd><dt>Year</dt><dd>2022</dd><dt>My role</dt><dd>Project manager</dd></dl></div></article>
+<article class="card" data-c="road"><div class="thumb">Add site photo</div><div class="in"><span class="tag">Road</span><h3>Highway Widening</h3><dl><dt>Location</dt><dd>City, State</dd><dt>Size</dt><dd>12 km, 4-lane</dd><dt>Year</dt><dd>2021</dd><dt>My role</dt><dd>Execution lead</dd></dl></div></article>
+<article class="card" data-c="bridge"><div class="thumb">Add site photo</div><div class="in"><span class="tag">Bridge</span><h3>River Bridge</h3><dl><dt>Location</dt><dd>City, State</dd><dt>Size</dt><dd>180 m span</dd><dt>Year</dt><dd>2020</dd><dt>My role</dt><dd>Structural supervisor</dd></dl></div></article>
+<article class="card" data-c="road"><div class="thumb">Add site photo</div><div class="in"><span class="tag">Road</span><h3>Village Road Network</h3><dl><dt>Location</dt><dd>District, State</dd><dt>Size</dt><dd>28 km</dd><dt>Year</dt><dd>2019</dd><dt>My role</dt><dd>Site engineer</dd></dl></div></article>
+<article class="card" data-c="building"><div class="thumb">Add site photo</div><div class="in"><span class="tag">Building</span><h3>School Building</h3><dl><dt>Location</dt><dd>City, State</dd><dt>Size</dt><dd>G+2, 30 classrooms</dd><dt>Year</dt><dd>2018</dd><dt>My role</dt><dd>Site engineer</dd></dl></div></article>
+</div></div></section>
+
+<section id="services" style="background:#100e0b"><div class="wrap">
+<h2>What I do</h2>
+<div class="svc">
+<div><h3>Building contracts</h3><p>Complete construction of large residential and commercial buildings, from foundation to finishing.</p></div>
+<div><h3>Own labour team</h3><p>Masons, carpenters, bar benders and helpers working under our supervision, so work never waits.</p></div>
+<div><h3>Quality &amp; materials</h3><p>Materials and work checked against the drawings at every stage.</p></div>
+<div><h3>On-time handover</h3><p>Clear schedule, site safety and regular updates so the project finishes when promised.</p></div>
+</div></div></section>
+
+<section id="contact" class="contact"><div class="wrap">
+<h2>Have a project?</h2>
+<a class="big" href="tel:+910000000000">+91 00000 00000</a>
+<a class="big" href="mailto:name@example.com" style="font-size:clamp(22px,5vw,36px);margin:6px 0 24px">name@example.com</a>
+<a class="btn" href="https://wa.me/910000000000">WhatsApp me</a>
+</div></section>
+
+<footer><div class="wrap">© 2026 Naam Surname. All rights reserved.</div></footer>
+
+<script>
+document.querySelectorAll('.filters button').forEach(function(b){
+b.addEventListener('click',function(){
+document.querySelectorAll('.filters button').forEach(function(x){x.setAttribute('aria-pressed',x===b)});
+var f=b.dataset.f;
+document.querySelectorAll('.card').forEach(function(c){c.hidden=!(f==='all'||c.dataset.c===f)});
+});});
+</script>
+</body>
+</html>
